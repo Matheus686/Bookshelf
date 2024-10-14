@@ -1,0 +1,83 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;  
+    padding: 0;
+    margin: 0;  
+}
+
+header{
+    border-bottom: 1px black;
+    padding: 2rem  ;
+    text-align: center;
+    font-size: 1.125rem;
+}
+
+h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 3, 5rem;
+    margin-bottom: 1rem;
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 1rem ;
+}
+
+.feature, .catolog, .genres,.cta, .classe{
+    padding: 2rem;
+    text-align: center;
+}
+
+.cta-button{
+    background-color: black;
+    border-radius:  9999px;
+    color: white;
+    display: block;
+    padding: 1rem  1.5rem;
+    width: fit-content;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin:2rem auto;
+}
+
+.genres > li {
+    display: inline-block;
+    margin-top: 2rem;
+
+}
+
+.genres > li + li{
+    margin-left:  1rem;
+    margin-top: 1rem;
+}
+.genre > a{
+    background-color: #43abf6 ;
+    display: inline-block;
+    border-radius:  9999px;
+    text-decoration: none;
+    color: white;
+    padding:  1rem 1.5rem;
+ 
+} 
+
+.see-more{
+    background-color: black;
+    display: inline-block;
+    border-radius:  9999px;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+   
+    
+}
+
+footer{
+    background-color: black;
+    color: white ;
+    padding: 2rem;
+    text-align: center;
+}
